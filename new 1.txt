@@ -1,0 +1,144 @@
+Create a class Person with properties (name and age) 
+with following features.
+a.	Default  age of person should be 18;
+b.	A person object can be initialized with name and age;
+c.	Method to display name and age of person
+------------------------------------------------------------------------------
+Create class Tile to store the edge length of a square tile ,
+ and  create another  
+class Floor to store length and width of a rectangular floor.  
+Add method totalTiles(Tile t) in Floor class with Tile as argument
+ to calculate the whole number of tiles needed to cover the floor completely.
+-----------------------------------------------------------------------------------
+Store name of weekdays in an array (starting from “Sunday” at 0 index).  
+Ask day position from user and print day name. Handle array index out of bound exception and give proper 
+message if user enter day index outside range (0-6).
+---------------------------------------------------------------------------------------
+68.Write a program to count how many times character ‘t’ occurs in a file.
+--------------------------------------------------------------------------
+69.	Write a program to count no of words in a text file and average word size.
+
+-------------------------------------------------------------------------------------------------
+
+
+
+Create a class Student with two members  : rollno and percentage.
+
+Create default and parameterized constructors. 
+Create method show() to display information.
+Create another class CollegeStudent inherits  Student class. 
+Add a new member semester to it. 
+Create default and parameterized constructors. 
+Also override show() method.
+
+Create another class SchoolStudent inherits  Student class.
+ Add a new member classname(eg 12th ,10th  etc.)  to it. 
+Create default and parameterized constructors. Also override show()
+ method.
+
+Create a class(say XYZ) with main method that carries out the operation
+ of the project :
+-- has array to store objects of any
+ class(Student or CollegeStudent, SchoolStudent)
+--create two CollegeStudent  and three SchoolStudent
+ record objects and store them inside the array
+-- display all record from the array
+-- search record on the basic of rollno and check given rollno is of SchoolStudent or of CollegeStudent.
+--count how many students are having A grade,  if for A grade percentage >75
+------------------------------------------------------------------------------------------------
+Create a following class/package structure in your application.
+  Filled squares are packages and empty circles are classes.
+▪️	campus.data
+o	Person (name, age, address)
+▪️	campus.academics
+o	Student(rollno, branch, semester) inherits Person
+o	Faculty(facultyId, name, salary, branch)  inherits Person
+▪️	campus
+o	CampusApp- this class contains main method to accept 5 Faculty
+ information and print total of salaries of all faculties.
+-------------------------------------------------------------------------------------------
+50.	Input name of a person and count how many vowels it contains.  
+Use String class functions.
+----------------------------------------------------------
+51.	Input data exactly in the following format, 
+and print sum of all integer values.
+“67, 89, 23, 67, 12, 55, 66”.   
+(Hint use String class split method and Integer class parseInt method)
+----------------------------------------------------------------------------------------
+64.	Create a Thread class to print following star(*) pattern on screen with delay of 
+1 second between each * print. 
+Number of lines in the pattern should be passed to the constructor of Thread class. 
+*  * * * *
+ * * * *
+* * *
+* *
+*
+Use this class in main method and ask user to enter number of lines to print
+----------------------------------------------------------------------------
+
+ASSIGNMENTS:
+Create Interface Taxable with members salesTax=7% and incomeTax=10.5%. 
+create abstract method calcTax().
+a.	Create class Employee(empId,name,salary) and implement Taxable to
+ calculate incomeTax on yearly salary.
+b.	Create class Product(pid,price,quantity) and implement Taxable to
+ calculate salesTax on unit price of product.
+c.	Create class for main method(Say XYZ), 
+ accept employee information and a product information
+ from user and print income tax and sales tax respectively
+
+
+
+47.	Create a program that helps banks to maintain records.
+ It should have 
+following facilities.
+o	Anybody can create current or saving account with following initial information:
+ account number, name, balance, and branch.
+o	display account detail for a particular accounts.
+o	display total money deposited in bank.
+o	allow deposit and  withdrawal in an account  .
+o	for saving account opening balance and minimum balance must be 5000.
+o	for current account opening balance and minimum balance must be 1000.
+o	can not withdraw the amount from the account that makes balance less than
+the minimum balance.
+
+
+
+
+
+1. Create class OneBHK with instance variable roomArea , hallArea and price
+a.	Create default and parameterized constructor;
+b.	Method show(): to print OneBHK data member information;
+Create another class TwoBHK which has all the properties and behaviour 
+of OneBHK and a new instance variable room2Area.
+a.	Create default and parameterized constructor;
+b.	Method show(): to print all data member information;
+Write main function in another class(Say XYZ) and store three TwoBHK flat’s information 
+ and print  information using show method. Also print total amount of all flats.
+
+2. Create an Abstract class Processor with int member variable data  and method showData to display data value. 
+Create abstract method process() to define processing of member data. 
+a.	Create a class  Factorial using abstract class Processor  to calculate and print factorial of a number by overriding the process method.
+b.	Create a class  Circle using abstract class Processor  to calculate and print area of a circle by overriding the process method
+ Ask user to enter choice (factorial or circle area).  Also ask data to work upon; Use Processor class reference to achieve this mechanism
+
+
+
+
+46.	Explain the importance of toString() and equals()
+ method of the Object class and override them on class Employee(empId,name,salary). 
+a.Create class for main method(say XYZ),and accept five employees
+ information and store in an array. Also ensure if entered empId already exist
+int or not (use equals method). 
+b.Display all employee info using toString method;
+
+
+53.	 Create a class Voter(voterId, name, age) with parameterized constructor.  
+The parameterized constructor should throw a checked exception if age is less than 18. 
+The message of exception is “invalid age for voter ”
+
+54.	Create Interface StudentFee and declare following method.  
+getFee() throws InvalidFeeException. This method ask fees from user 
+and throws exception if user enters invalid or negative fees
+Create class Student with members (name, fees) and 
+implement the StudentFee Interface
